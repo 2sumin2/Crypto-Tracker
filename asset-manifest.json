@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/Crypto-Tracker/static/js/main.e04f64ad.js",
+    "static/media/coin.png": "/Crypto-Tracker/static/media/coin.bec6059ffae8a7b8373b.png",
+    "index.html": "/Crypto-Tracker/index.html",
+    "main.e04f64ad.js.map": "/Crypto-Tracker/static/js/main.e04f64ad.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e04f64ad.js"
+  ]
+}
