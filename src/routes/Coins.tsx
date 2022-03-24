@@ -110,7 +110,6 @@ function Coins({ }: ICoinsProps) {
                                 <Link
                                     to={`/${coin.id}`}
                                     state={{ name: coin.name }}>
-                                    <Img src={`https://cryptoicon-api.vercel.app/api/icon/${coin.symbol.toLowerCase()}`} />
                                     {coin.name} &rarr;
                                 </Link>
                             </Coin>)}
