@@ -19,9 +19,8 @@ interface IHistorical {
     volume: number;
     market_cap: number;
 }
-interface IChartProps {
-}
-function Chart({ }: IChartProps) {
+
+function Chart() {
     const isDark = useRecoilValue(isDarkAtom);
     const props = useOutletContext<ChartProps>();
     const { isLoading, data } = useQuery<IHistorical[]>(

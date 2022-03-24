@@ -18,9 +18,8 @@ interface IHistorical {
     volume: number;
     market_cap: number;
 }
-interface IPriceProps {
-}
-function Price({ }: IPriceProps) {
+
+function Price() {
     const isDark = useRecoilValue(isDarkAtom);
     const props = useOutletContext<ChartProps>();
     const { isLoading, data } = useQuery<IHistorical[]>(["ohlcv", props.coinId], () => fetchCoinHistory(props.coinId),

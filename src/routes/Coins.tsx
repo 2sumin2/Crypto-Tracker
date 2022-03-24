@@ -55,16 +55,6 @@ const Loader = styled.span`
     text-align: center;
     display: block;
 `;
-const Img = styled.img<ImgInterface>`
-    width:35px;
-    height:35px;
-    margin-right: 10px;
-`;
-
-interface ImgInterface {
-    src: string,
-}
-
 interface ICoin {
     id: string,
     name: string,
@@ -74,10 +64,9 @@ interface ICoin {
     is_active: boolean,
     type: string,
 }
-interface ICoinsProps {
-}
+
 //<button onClick={toggleDarkAtom}>Toggle Mode</button>
-function Coins({ }: ICoinsProps) {
+function Coins() {
     const isDark = useRecoilValue(isDarkAtom);
     const setDarkAtom = useSetRecoilState(isDarkAtom);
     const toggleDarkAtom = () => setDarkAtom((prev) => !prev);
