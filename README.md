@@ -1,3 +1,30 @@
+# Crypto-Tracker
+### 코인 실시간 시세 조회 
+
+#### 1. Main page
+<div style="display:flex">
+<img width="400px" src="https://user-images.githubusercontent.com/75177553/160430308-9288fb1a-7ba5-489e-ad89-e19a947ba233.png"/>
+<img width="400px" src="https://user-images.githubusercontent.com/75177553/160428905-e52e3839-e83e-42ab-9c0e-5505eaeb6592.png"/>
+</div>
+
+#### 2. Coin Info page
+<div style="display:flex">
+<img width="400px" src="https://user-images.githubusercontent.com/75177553/160429049-c6c16044-1698-4065-8da2-2b1ef58ecd70.png"/>
+<img width="400px" src="https://user-images.githubusercontent.com/75177553/160429431-45a89a66-aa79-4acc-8809-f53b3cbdbbcb.png"/>
+</div>
+
+#### 3. Chart page
+<div style="display:flex">
+<img width="400px" src="https://user-images.githubusercontent.com/75177553/160429181-f9a5bc4b-0116-42cc-b3e5-73f5ea3874d1.png"/>
+<img width="400px" src="https://user-images.githubusercontent.com/75177553/160429504-927508b1-1eae-4c0a-aba8-4ffa33edae10.png"/>
+</div>
+
+#### 4. Price page
+<div style="display:flex">
+<img width="400px" src="https://user-images.githubusercontent.com/75177553/160429320-84e53cc6-dc70-4b0a-9071-e2506440a4b7.png"/>
+<img width="400px" src="https://user-images.githubusercontent.com/75177553/160429553-93b5c872-ecff-46ce-9dde-43a181ccb329.png"/>
+</div>
+<br>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
